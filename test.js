@@ -7,5 +7,4 @@ test('Should return true', t => {
 	t.is(fn(100), 3);
 	t.is(fn(123.45), 5);
 	t.is(fn(-1234), 4);
-	t.end();
 });
